@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>digitalenvoy</groupId>
+        <artifactId>netacuity-client-api-java-parent</artifactId>
+        <version>7.0.0</version>
+        <relativePath>..</relativePath>
+    </parent>
+
+    <artifactId>netacuity-client-api-java-examples</artifactId>
+    <packaging>jar</packaging>
+    <name>Java NetAcuity Client API - Examples</name>
+    <description>Examples for using the Java NetAcuity Client API</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>digitalenvoy</groupId>
+            <artifactId>netacuity-client-api-java</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <archive>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
