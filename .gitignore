@@ -1,0 +1,26 @@
+# Maven build output
+target/
+*.class
+*.jar
+*.war
+
+# IDE — IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# IDE — Eclipse
+.classpath
+.project
+.settings/
+.springBeans
+
+# IDE — VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+/bin/
