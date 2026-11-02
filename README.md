@@ -24,13 +24,13 @@ mvn install
 <dependency>
     <groupId>digitalenvoy</groupId>
     <artifactId>netacuity-client-api-java</artifactId>
-    <version>7.0.0</version>
+    <version>7.0.1</version>
 </dependency>
 ```
 
 **Gradle:**
 ```groovy
-implementation 'digitalenvoy:netacuity-client-api-java:7.0.0'
+implementation 'digitalenvoy:netacuity-client-api-java:7.0.1'
 ```
 
 ## Quick Start
@@ -135,7 +135,7 @@ Returned by the XML UDP `queryXml` methods.
 
 ## Feature Codes
 
-For the complete, up-to-date list of feature codes and their response fields, see the [NetAcuity documentation](https://docs.netacuity.com/).
+For the complete, up-to-date list of feature codes and their response fields, see the [NetAcuity documentation](https://docs.digitalelement.com/).
 
 ## Examples
 
@@ -174,7 +174,7 @@ See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 Technical Support is only available to those under active contract with Digital Element. To contact Support, use the contact information provided at contract initiation.
 
-- Documentation: [docs.netacuity.com](https://docs.netacuity.com/)
+- Documentation: [docs.digitalelement.com](https://docs.digitalelement.com/)
 - Issues: [GitHub Issues](https://github.com/netacuity/netacuity-client-api-java/issues)
 
 ## License

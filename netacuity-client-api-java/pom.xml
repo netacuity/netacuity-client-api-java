@@ -7,7 +7,7 @@
     <parent>
         <groupId>digitalenvoy</groupId>
         <artifactId>netacuity-client-api-java-parent</artifactId>
-        <version>7.0.0</version>
+        <version>7.0.1</version>
         <relativePath>..</relativePath>
     </parent>
 
@@ -26,6 +26,18 @@
     </dependencies>
 
     <build>
+        <!-- Apache-2.0 section 4(d): LICENSE and NOTICE must accompany the
+             distributed artifact, so copy them into the jar's META-INF. -->
+        <resources>
+            <resource>
+                <directory>${project.basedir}/..</directory>
+                <targetPath>META-INF</targetPath>
+                <includes>
+                    <include>LICENSE</include>
+                    <include>NOTICE</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

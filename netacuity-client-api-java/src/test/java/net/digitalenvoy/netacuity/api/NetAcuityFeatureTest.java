@@ -48,6 +48,8 @@ public class NetAcuityFeatureTest {
         assertEquals(35, NetAcuityFeature.IPC.getFeatureCode());
         assertEquals(36, NetAcuityFeature.NODIFY.getFeatureCode());
         assertEquals(37, NetAcuityFeature.OBSERVED_COUNTRIES.getFeatureCode());
+        assertEquals(38, NetAcuityFeature.DMA.getFeatureCode());
+        assertEquals(39, NetAcuityFeature.DMA_MAX.getFeatureCode());
         assertEquals(40, NetAcuityFeature.AA_SA1.getFeatureCode());
         assertEquals(41, NetAcuityFeature.AAMAX_SA1.getFeatureCode());
         assertEquals(42, NetAcuityFeature.AA_IRIS.getFeatureCode());
@@ -56,6 +58,9 @@ public class NetAcuityFeatureTest {
         assertEquals(45, NetAcuityFeature.AAMAX_ZIP4.getFeatureCode());
         assertEquals(46, NetAcuityFeature.AAMAX_IRIS.getFeatureCode());
         assertEquals(47, NetAcuityFeature.AAMAX_PLZ8.getFeatureCode());
+        assertEquals(51, NetAcuityFeature.REGIONAL_MEDIA_MARKET.getFeatureCode());
+        assertEquals(52, NetAcuityFeature.REGIONAL_MEDIA_MARKET_MAX.getFeatureCode());
+        assertEquals(53, NetAcuityFeature.DMA_EDGE.getFeatureCode());
         assertEquals(93, NetAcuityFeature.DECODE.getFeatureCode());
     }
 
@@ -91,8 +96,8 @@ public class NetAcuityFeatureTest {
     // ── Enum completeness ─────────────────────────────────────────────────────
 
     @Test
-    public void enumHas32Values() {
-        assertEquals(32, NetAcuityFeature.values().length);
+    public void enumHas37Values() {
+        assertEquals(37, NetAcuityFeature.values().length);
     }
 
     @Test
