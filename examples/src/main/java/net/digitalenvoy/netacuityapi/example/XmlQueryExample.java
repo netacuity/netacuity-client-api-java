@@ -129,6 +129,8 @@ public class XmlQueryExample {
         System.out.println("         feature-code:  35  (ipc)");
         System.out.println("         feature-code:  36  (nodify)");
         System.out.println("         feature-code:  37  (observedcountries)");
+        System.out.println("         feature-code:  38  (dma)");
+        System.out.println("         feature-code:  39  (dmamax)");
         System.out.println("         feature-code:  40  (aa_sa1)");
         System.out.println("         feature-code:  41  (aamax_sa1)");
         System.out.println("         feature-code:  42  (aa_iris)");
@@ -137,6 +139,9 @@ public class XmlQueryExample {
         System.out.println("         feature-code:  45  (aamax_zip4)");
         System.out.println("         feature-code:  46  (aamax_iris)");
         System.out.println("         feature-code:  47  (aamax_plz8)");
+        System.out.println("         feature-code:  51  (rmm)");
+        System.out.println("         feature-code:  52  (rmmmax)");
+        System.out.println("         feature-code:  53  (dmaedge)");
         System.out.println("         feature-code:  93  (decode)");
     }
 }

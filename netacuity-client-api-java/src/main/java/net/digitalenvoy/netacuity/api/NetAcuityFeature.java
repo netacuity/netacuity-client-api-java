@@ -43,6 +43,8 @@ public enum NetAcuityFeature implements FeatureInfo {
     IPC(35),
     NODIFY(36),
     OBSERVED_COUNTRIES(37),
+    DMA(38),
+    DMA_MAX(39),
     AA_SA1(40),
     AAMAX_SA1(41),
     AA_IRIS(42),
@@ -51,6 +53,9 @@ public enum NetAcuityFeature implements FeatureInfo {
     AAMAX_ZIP4(45),
     AAMAX_IRIS(46),
     AAMAX_PLZ8(47),
+    REGIONAL_MEDIA_MARKET(51),
+    REGIONAL_MEDIA_MARKET_MAX(52),
+    DMA_EDGE(53),
     DECODE(93);
 
     private final int featureCode;
